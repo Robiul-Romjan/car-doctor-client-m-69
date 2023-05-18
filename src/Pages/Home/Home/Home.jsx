@@ -1,8 +1,13 @@
+import AboutUs from "../AboutUs/AboutUs";
+import Banner from "../Banner/Banner";
+import Services from "../Services/Services";
 
 const Home = () => {
     return (
         <div>
-            <h2 className="text-5xl">Home</h2>
+            <Banner />
+            <AboutUs />
+            <Services />
         </div>
     );
 };
